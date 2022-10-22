@@ -18,8 +18,7 @@ export const Content = styled.div`
   min-height: ${px2vw(200, 320)};
   flex-direction: column;
   padding: ${px2vw(20)};
-  margin: ${px2vw(20)};
-  background-color: ${props => props.bgColor};
+  margin: ${px2vw(20)};  
   height: 100%;
 
   @media (min-width: 768px) {

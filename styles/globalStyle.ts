@@ -3,7 +3,7 @@ import px2vw from "./utils/px2vm";
 
 
 export const GlobalStyle = createGlobalStyle`
- @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+ 
  * {
     margin: 0;
     padding: 0;
