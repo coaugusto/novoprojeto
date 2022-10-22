@@ -8,10 +8,6 @@ justify-content: center;
 align-items: center;
 margin: ${px2vw(32)};
 
-
-
-
-
 `;
 export const Content = styled.div` 
   display:flex;
@@ -97,8 +93,11 @@ export const Content = styled.div`
         padding: 0.7em 5.7em;       
         background:  #027702;
         border-radius: ${px2vw(6)};
+        border: 0;
+        margin: 0;
         font-size: ${px2vw(22)};
         font-weight: bold;
+        color: #ffff;
         margin-top: ${px2vw(15)};   
         margin-left: ${px2vw(100)};       
         transition: background 0.15s;
@@ -111,16 +110,23 @@ export const Content = styled.div`
 
     a {
       display: block;
-      margin-top: ${px2vw(15)};  
+      margin-top: ${px2vw(30)};  
       text-decoration:none;
       font-weight: bold;
-      margin-left: ${px2vw(-90)};
-      color:#000000;
-        text-align: center;
-        padding: ${px2vw(15)}; 
-        border-radius: ${px2vw(5)};
-        font-size: ${px2vw(22)};
-        text-transform: uppercase;      
+      background: #7e7c7a;
+      margin-left: ${px2vw(100)};
+      margin-right: ${px2vw(215)};
+      color:#ffff;
+      text-align: center;
+      padding: ${px2vw(15)}; 
+      border-radius: ${px2vw(5)};
+      font-size: ${px2vw(22)};
+      transition: background 0.15s;
+        * &:hover {
+          background: ${darken(0.05, '#7e7c7a')};
+      }
+      
+             
       
     }
   }
