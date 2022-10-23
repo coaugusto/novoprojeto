@@ -8,6 +8,10 @@ justify-content: center;
 align-items: center;
 margin: ${px2vw(32)};
 
+
+
+
+
 `;
 export const Content = styled.div` 
   display:flex;
@@ -63,70 +67,71 @@ export const Content = styled.div`
       
 
       label {
-        display: flex;
+        display: block;
         padding: ${px2vw(15)};
-        justify-content: center;
-        align-items: center;
+        
+       
         
         strong {
           font-size: ${px2vw(20)};
-          font-style: bol;
-          padding: ${px2vw(15)};
-          margin-right: 10px;
+          padding: ${px2vw(5)};
+          
           
         }
 
         input {
-          display: block;
+          
           border-radius: ${px2vw(10)};
           padding: ${px2vw(15)};
           align-items:center;
           font-size: ${px2vw(22)};
+          margin-top: 10px;
           
 
         }
       }
-
+      
+      
       button {
         display: inline-block;
         align-items: center;
-        padding: 0.7em 5.7em;       
+        border: 0;
+        width: ${px2vw(320)};
+        padding: 1em 3.1em;       
         background:  #027702;
         border-radius: ${px2vw(6)};
-        border: 0;
-        margin: 0;
         font-size: ${px2vw(22)};
-        font-weight: bold;
-        color: #ffff;
-        margin-top: ${px2vw(15)};   
-        margin-left: ${px2vw(100)};       
+        font-weight: bold;      
+        margin-left: ${px2vw(15)};   
+        margin-top: 15px ;
         transition: background 0.15s;
         * &:hover {
           background: ${darken(0.05, '#027702')};
       }
-    
+      span {
+        
+        padding: ${px2vw(35)};
+        margin:100 100 100px;
+
+      }
+     
     }
+   
   }
 
     a {
       display: block;
-      margin-top: ${px2vw(30)};  
       text-decoration:none;
       font-weight: bold;
-      background: #7e7c7a;
-      margin-left: ${px2vw(100)};
-      margin-right: ${px2vw(215)};
-      color:#ffff;
-      text-align: center;
-      padding: ${px2vw(15)}; 
-      border-radius: ${px2vw(5)};
-      font-size: ${px2vw(22)};
-      transition: background 0.15s;
-        * &:hover {
-          background: ${darken(0.05, '#7e7c7a')};
-      }
-      
-             
+      color: #027702;
+      margin-top: 75px;
+      margin-left: 5px;
+     
+        text-align: right;
+        padding: ${px2vw(25)}; 
+        border-radius: ${px2vw(5)};
+        font-size: ${px2vw(22)};
+        text-transform: uppercase;      
       
     }
   }

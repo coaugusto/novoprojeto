@@ -2,7 +2,7 @@ import React from 'react'
 import {  Content, Wrapper } from '../../../styles/login/styles'
 import { InputText } from '../../components/InputText'
 
-export const Login = () => {
+export const Register = () => {
   return (
    <Wrapper >
     <Content>
@@ -10,13 +10,15 @@ export const Login = () => {
            <img src='/people.png' alt=''/>
         </aside>
         <main>        
-         <h1>Acessar o sistema</h1>
+         <h1>Crie sua conta</h1>
         <form>
          <InputText label="Email:" type="email" />
          <InputText label="Senha:" type="password" />
-          <button><span>Entrar</span></button>
+         <button>          
+             <span>Cadastrar</span>  
+          </button> 
         </form>
-        <a href='/register'>Cadastre-se</a>
+        <a href='/'>Já possuo uma conta</a>
         </main>
     </Content>
    </Wrapper>
