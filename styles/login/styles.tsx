@@ -96,6 +96,7 @@ export const Content = styled.div`
         display: inline-block;
         align-items: center;
         border: 0;
+        color: #ffff;
         width: ${px2vw(320)};
         padding: 1em 3.1em;       
         background:  #027702;
